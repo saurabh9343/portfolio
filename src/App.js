@@ -1,24 +1,12 @@
-import React from 'react'
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Project';
-import Contact from './components/Contect';
-import Footer from './components/Footer';
+import React from "react";
 
-const App = () => {
+function App() {
   return (
-    <>
-     <Navbar/>
-     <Hero/>
-     <About/>
-     <Skills/>
-     <Projects/>
-     <Contact/>
-     <Footer/>
-    </>
-  )
+    <div style={{ textAlign: "center", padding: "50px" }}>
+      <h1>Hello, I'm Saurabh Kushwah</h1>
+      <p>This is my React Portfolio deployed using GitHub Pages!</p>
+    </div>
+  );
 }
 
-export default App ;
+export default App;
