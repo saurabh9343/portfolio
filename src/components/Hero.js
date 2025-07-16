@@ -1,5 +1,5 @@
 import React from "react";
-import "./Main.css"; 
+import "./Main.css";
 
 const Hero = () => {
   return (
@@ -17,23 +17,25 @@ const Hero = () => {
               Learning React, Node, MongoDB and diving deep into MERN stack development.
             </p>
             <a
-              href="/resume.pdf"
+              href={`${process.env.PUBLIC_URL}/resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-warning fw-semibold px-4 py-2 mt-3"
             >
               View Resume
             </a>
+
           </div>
 
           {/* Right Image Section */}
           <div className="col-lg-6 text-center">
             <img
-              src="/my-6.jpg"
+              src={`${process.env.PUBLIC_URL}/my-6.jpg`}
               alt="Saurabh Kushwah"
               className="rounded-circle shadow-lg"
               style={{ width: "250px", height: "250px", objectFit: "cover" }}
             />
+
           </div>
         </div>
       </div>
