@@ -1,11 +1,23 @@
 import React from "react";
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Project from "./components/Project";
+import Contect from "./components/Contect";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div style={{ textAlign: "center", padding: "50px" }}>
-      <h1>Hello, I'm Saurabh Kushwah</h1>
-      <p>This is my React Portfolio deployed using GitHub Pages!</p>
-    </div>
+    <>
+     <Navbar/>
+     <Hero/>
+     <About/>
+     <Skills/>
+     <Project/>
+     <Contect/>
+     <Footer/>
+    </>
   );
 }
 
