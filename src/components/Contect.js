@@ -19,7 +19,7 @@ const Contact = () => {
               <div className="row justify-content-center g-3">
                 <div className="col-sm-6 col-md-4">
                   <a
-                    href="mailto:aashish.sva@gmail.com"
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTJndBrVVXBLpggDLVtkwtLshtTxsGFmgmdhCndvgNhQDLbBnGwfLPXrsfSvnhsGClDxNq"
                     target="_blank"
                     rel="noreferrer"
                     className="contact-link d-flex align-items-center justify-content-center"
@@ -29,7 +29,7 @@ const Contact = () => {
                 </div>
                 <div className="col-sm-6 col-md-4">
                   <a
-                    href="https://github.com/aashishsva"
+                    href="https://github.com/saurabh9343"
                     target="_blank"
                     rel="noreferrer"
                     className="contact-link d-flex align-items-center justify-content-center"
@@ -39,7 +39,7 @@ const Contact = () => {
                 </div>
                 <div className="col-sm-6 col-md-4">
                   <a
-                    href="https://www.linkedin.com/in/aashishmehar99"
+                    href="https://www.linkedin.com/in/saurabh-kushwah-03198a2b1"
                     target="_blank"
                     rel="noreferrer"
                     className="contact-link d-flex align-items-center justify-content-center"

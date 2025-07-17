@@ -8,24 +8,24 @@ const Projects = () => {
       description:
         "Full-stack MERN car rental app with login, JWT auth, admin car management, and vehicle owner dashboard.",
       tech: "React, Node.js, Express, MongoDB",
-      github: "https://github.com/aashish/car-rental",
-      demo: "https://car-rental-demo.vercel.app",
+      github: "https://github.com/saurabh9343/Car-rentel",
+      demo: "https://lucky-cannoli-b72f93.netlify.app",
     },
     {
-      title: "Chat App",
+      title: "Basic Html Project",
       description:
-        "Real-time chat application with socket.io, group & private chat, and responsive UI.",
-      tech: "React, Node.js, Socket.io, MongoDB",
-      github: "https://github.com/aashish/chat-app",
-      demo: "https://chat-app-demo.vercel.app",
+        "This is a basic front-end web application for an online T-shirt selling store, built using HTML and CSS.",
+      tech: "Html and Css",
+      github: "https://github.com/saurabh9343/html",
+      demo: "https://htmlwebapp.netlify.app/home",
     },
     {
-      title: "Expense Tracker",
+      title: "Percentage Calculator",
       description:
-        "Track your daily expenses, see chart insights, and manage your budget easily.",
-      tech: "React, Node.js, MongoDB, Chart.js",
-      github: "https://github.com/aashish/expense-tracker",
-      demo: "https://expense-tracker-demo.vercel.app",
+        "This is a simple web-based application designed to help students calculate their total percentage based on the marks obtained in different subjects in Class 10th.",
+      tech: "Html, Css and Javascript.",
+      github: "https://github.com/saurabh9343/CalCulate-10th-result",
+      demo: "https://calculater-10th-percentage.netlify.app",
     },
   ];
 
