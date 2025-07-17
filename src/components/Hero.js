@@ -3,7 +3,7 @@ import "./Main.css";
 
 const Hero = () => {
   return (
-    <section id="hero" className="hero-section text-white py-5" data-aos="fade-up">
+    <section id="hero" className="hero-section text-white py-5 mt-5" data-aos="fade-up">
       <div className="container">
         <div className="row align-items-center gy-5">
           {/* Left Text Section */}
@@ -12,7 +12,7 @@ const Hero = () => {
               Hi, I'm <span className="gradient-text">Saurabh Kushwah</span>
             </h1>
             <h2 className="fs-4 text-light">MERN Stack Developer</h2>
-            <p className="lead mt-3">
+            <p className=" mt-3 text-light">
               Passionate about building web apps that solve real problems.
               Learning React, Node, MongoDB and diving deep into MERN stack development.
             </p>
