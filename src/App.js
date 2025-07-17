@@ -6,17 +6,20 @@ import Skills from "./components/Skills";
 import Project from "./components/Project";
 import Contect from "./components/Contect";
 import Footer from "./components/Footer";
+import { HashRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-     <Navbar/>
-     <Hero/>
-     <About/>
-     <Skills/>
-     <Project/>
-     <Contect/>
-     <Footer/>
+      <HashRouter>
+        <Navbar />
+        <Hero />
+        <About />
+        <Skills />
+        <Project />
+        <Contect />
+        <Footer />
+      </HashRouter>
     </>
   );
 }
